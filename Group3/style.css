@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0%;
+}
+
+/* ################# Utility classes ################# */
+
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+.container2{
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+.container3{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+/* ################### Navbar ######################### */
+
+nav{
+    background-color: #009dd4;
+    margin: 0%;
+    padding: 15px;
+}
+
+.icons{
+    float: right;
+    list-style: none;
+    display: flex;
+    margin: 0%;
+}
+.icons i{
+    padding: 0 3px;
+    color: white;
+}
+
+/* ########################### Banner Section ################# */
+
+.BookNow h1 p{
+    font-size: 25px;
+}
+.BookNow{
+    background-image: url("./images/Intro.png");
+    /* width: 100vw; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding: 55px;
+}
+.BookNow p{
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+form{
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+.PCode{
+    padding: 40px;
+    height: 40%;
+}
+.PostCode input{
+    background-color: white;
+    padding: 15px;
+    border: solid 1px rgb(164, 164, 164);
+}
+.PostCode button{
+    padding: 16px;
+    background-color: rgba(3, 145, 197, 0.953);
+    color: white;
+    border: none;
+    margin-left: -4px;
+}
+
+/* #################### Menu Section ###################### */
+
+.Lists{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Section{
+    background-color: rgb(46, 44, 44);
+    padding: 25px 0;
+}
+
+.Section ul a:hover{
+    color:  rgba(3, 145, 197, 0.953);
+}
+
+.Section ul a:active{
+    color:  rgba(3, 145, 197, 0.953);
+}
+
+/* ######################### About Us ################## */
+
+.AboutUs{
+    text-align: center;
+    padding-bottom:10px;
+    background-image: url(./images/blue-bubble-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+
+}
+
+.AboutUs h1{
+    /* margin-top: 25px; */
+    padding-top: 25px;
+    font-size: 27px;
+}
+.AboutUs hr{
+    border: 1px solid rgba(3, 145, 197, 0.953);
+    width: 3%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.AboutUs p.first{
+    margin-bottom: 30px;
+}
+.Autem{
+    text-align: left;
+    margin-left: 10%;
+    font-size: smaller;
+}
+
+.innerText{
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+    /* margin-right: 5%; */
+}
+
+.Autem h3{
+    color: rgba(3, 145, 197, 0.953);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.first{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+}
+
+.Autem button{
+    background-color: rgba(3, 145, 197, 0.953);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 25px 0;
+}
+.Align{
+    display: flex;
+    /* margin-left: 10%; */
+}
+.Align img{
+    margin-left: 15px;
+    width: 400px;
+}
+
+/* ####################### Services ######################### */
+
+.Services{
+    background-image: url(./images/screaming-blue-man-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+.Services li img{
+    border-radius: 50%;
+    width: 200px;
+}
+.Services h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cleaningHeading{
+    font-size: 30px;
+}
+
+.Services h3{
+    margin-bottom: 10px;
+}
+.CLists{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.CLists p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CLists a{
+    text-decoration: none;
+    color: white;
+}
+
+.serviceText{
+    float: right;
+    padding: 30px 10px;
+}
+
+/* ############################## Why US Section #################### */
+
+.WhyUs{
+    text-align: left;
+    margin-left: 10%;
+    font-size: smaller;
+    background-image: url(./images/clipboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+.WhyUs ul li{
+    color: rgba(14, 151, 201, 0.953);
+}
+.whyusText{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+.points{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Materials{
+    width: 500px;
+}
+.ChooseUs{
+    margin: 30px 0;
+    background-image: url(./images/blue-bubble-background.png);
+}
+.Choose{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Choose img{
+    /* margin-left: 8%; */
+    /* padding-left: 100px; */
+}
+
+.Referal{
+    margin-top: 60px;
+    margin-left: 10%;
+    /* text-align: center; */
+    width: 90%;
+    text-align: center;
+}
+
+/* ######################## Our Clients ######################### */
+
+.OurClients{
+    text-align: center;
+}
+
+.OurClients h2{
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.clientText{
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(132, 132, 132);
+    font-size: 15px;
+}
+.JoeAllen{
+    display: flex;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.JoeImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.JoeAllen h1{
+    text-align: left;
+    color: #009dd4;
+    font-weight: 100;
+}
+
+.JoeAllen p{
+    text-align: justify;
+}
+
+.joeText{
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.joeText p{
+    font-size: 15px;
+    color: rgb(132, 132, 132);
+    /* letter-spacing: 0.5px; */
+    word-spacing: 1px;
+}
+.Clients{
+    display: flex;
+}
+.Sponsor01{
+    list-style: none;
+    display: flex;
+}
+
+.Sponsor01 img{
+    width: 400px;
+}
+
+.Sponsor02 img{
+    width: 400px;
+}
+
+.sponsors{
+    padding-left: 20px;
+}
+.Sponsor02{
+    list-style: none;
+    display: flex;
+}
+
+/* ###################### Footer Section #################### */
+
+.footerLists{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;   
+    color: rgb(168, 168, 168);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerLists a{
+    color: rgb(168, 168, 168);
+}
+
+footer{
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+}
+
+.footer{
+    padding: 30px 0px;
+}
+.Links{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.Links:hover{
+    color: #009dd4;
+}
+
+/* ####################### Media Queries ##################### */
+
+/* tablet average screen size = 768px */
+/* phone average screen size = 480px  */
+
+@media (max-width: 480px) {
+    /* Reset any previously set styles for smaller screens */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    /* Adjust styles for the navigation bar and icons */
+    .navbar {
+      padding: 10px;
+    }
+    .webLogo{
+        width: 100%;
+    }
+    .icons {
+      float: none;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+  
+    /* Adjust the banner section */
+    .BookNow {
+      height: auto;
+      padding: 20px;
+    }
+    .BookNow h1 p {
+      font-size: 20px;
+    }
+    .PostCode {
+      padding: 20px;
+    }
+
+    .PostCode input {
+      padding: 10px;
+
+    }
+    .PostCode button {
+      padding: 10px 20px;
+      margin-left: 0;
+    }
+  
+    /* Adjust the menu section */
+
+    .Lists {
+      /* display: block; */
+      margin: 20px 20px;
+      font-size: 13px;
+      justify-content: space-around;
+    }
+  
+    /* Adjust the "About Us" section */
+    .AboutUs {
+      padding: 20px;
+    }
+    .AboutUs h1 {
+      font-size: 24px;
+    }
+    .Autem h3 {
+      font-size: 18px;
+    }
+    .innerText {
+      font-size: 14px;
+    }
+
+    .Align{
+        flex-direction: column;
+    }
+    .Align img{
+        margin: auto;
+        width: 100%;
+    }
+  
+    /* Adjust the "Services" section */
+
+    .CLists{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .serviceText{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .CleaningImage,
+    .CleaningImage02 {
+      width: 100%;
+    }
+    .serviceText {
+      padding: 10px;
+    }
+  
+    /* Adjust the "Why Us" section */
+    .WhyUs {
+      background-size: 260px 520px;
+    }
+    .whyusText {
+      font-size: 10px;
+      margin-left: 3%;
+    }
+    .Materials {
+      width: 100%;
+    }
+    .Choose{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .points{
+        padding: 0 30px;
+        margin-left: 4%;
+    }
+  
+    /* Adjust the "Our Clients" section */
+    .clientText {
+      font-size: 14px;
+    }
+    .JoeAllen{
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .joeText p{
+        margin-bottom: 20px;
+    }
+    .JoeImage {
+      width: 60px;
+      height: 60px;
+      margin-left: 45%;
+    }
+    .Sponsor01 img,
+    .Sponsor02 img {
+      width: 100%;
+    }
+  
+    /* Adjust the footer */
+    .footerLists {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .footer a {
+      display: block;
+    }
+  }
+
+  /* #################### MAxWidth: 768px ################ */
+
+  @media only screen and (max-width: 768px) and (min-width: 481px) {
+    /* Reset any previously set styles for smaller screens */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    /* Adjust styles for the navigation bar and icons */
+    .navbar {
+      padding: 10px;
+    }
+    .webLogo{
+        /* display: none; */
+        width: 100%;
+    }
+    .icons {
+      float: none;
+      display: flex;
+      justify-content: space-between;
+      
+      padding: 10px 0;
+    }
+
+  
+    /* Adjust the banner section */
+    .BookNow {
+      height: auto;
+      padding: 20px;
+    }
+    .BookNow h1 p {
+      font-size: 20px;
+    }
+    .PostCode {
+      padding: 20px;
+    }
+    .PostCode input {
+      padding: 10px;
+    }
+    .PostCode button {
+      padding: 12px 20px;
+      margin-left: 0;
+    }
+  
+    /* Adjust the menu section */
+
+    .Section{
+
+    }
+    .Lists {
+      /* display: block; */
+      margin: 20px auto;
+      justify-content: space-around;
+    }
+  
+    /* Adjust the "About Us" section */
+    .AboutUs {
+      padding: 20px;
+    }
+    .AboutUs h1 {
+      font-size: 24px;
+    }
+    .Autem h3 {
+      font-size: 18px;
+    }
+    .innerText {
+      font-size: 14px;
+    }
+
+    .Align{
+        flex-direction: column;
+    }
+    .Align img{
+        margin: auto;
+        /* text-align: center; */
+        width: 100%;
+    }
+  
+    /* Adjust the "Services" section */
+
+    .CLists{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .serviceText{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .CleaningImage,
+    .CleaningImage02 {
+      width: 100%;
+    }
+    .serviceText {
+      padding: 10px;
+    }
+  
+    /* Adjust the "Why Us" section */
+    .WhyUs {
+      background-size: 620px 530px;
+
+    }
+    .whyusText {
+      font-size: 14px;
+      margin-left: 5%;
+    }
+    .Materials {
+      width: 100%;
+    }
+    .Choose{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .points{
+        padding: 0 30px;
+        margin-left: 5%;
+    }
+  
+    /* Adjust the "Our Clients" section */
+    .clientText {
+      font-size: 14px;
+    }
+    .JoeAllen{
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .joeText p{
+        margin-bottom: 20px;
+    }
+    .JoeImage {
+      width: 60px;
+      height: 60px;
+      margin-left: 45%;
+    }
+    .Sponsor01 img,
+    .Sponsor02 img {
+      width: 100%;
+    }
+  
+    /* Adjust the footer */
+    .footerLists {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .footer a {
+      display: block;
+    }
+  }
+  
+  /* #################### MAxWidth: 900px ################ */
+
+  @media only screen and (max-width: 900px) and (min-width: 769px) {
+    /* Reset any previously set styles for smaller screens */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    /* Adjust styles for the navigation bar and icons */
+    .navbar {
+      padding: 15px;
+    }
+    .webLogo{
+        /* display: none; */
+        width: 50%;
+    }
+    .icons {
+      /* float: none; */
+      /* display: flex; */
+      justify-content: space-between;
+      /* padding: 10px 0; */
+    }
+  
+    /* Adjust the banner section */
+    .BookNow {
+      height: auto;
+      padding: 20px;
+    }
+    .BookNow h1 p {
+      font-size: 20px;
+    }
+    .PostCode {
+      padding: 20px;
+    }
+    .PostCode input {
+      padding: 10px;
+    }
+    .PostCode button {
+      padding: 12px 20px;
+      margin-left: 0;
+    }
+  
+    /* Adjust the menu section */
+
+    .Section{
+
+    }
+    .Lists {
+      /* display: block; */
+      margin: 20px auto;
+      justify-content: space-around;
+    }
+  
+    /* Adjust the "About Us" section */
+    .AboutUs {
+      padding: 20px;
+    }
+    .AboutUs h1 {
+      font-size: 24px;
+    }
+    .Autem h3 {
+      font-size: 18px;
+    }
+    .innerText {
+      font-size: 14px;
+    }
+
+    .Align{
+        flex-direction: column;
+        /* width: 300px; */
+    }
+    .Align img{
+        margin: auto;
+        /* text-align: center; */
+        width: 100%;
+    }
+  
+    /* Adjust the "Services" section */
+
+    .CLists{
+        /* flex-direction: column; */
+        justify-content: space-around;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .serviceText{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .CleaningImage,
+    .CleaningImage02 {
+      width: 100%;
+    }
+    .serviceText {
+      padding: 10px;
+    }
+  
+    /* Adjust the "Why Us" section */
+    .WhyUs {
+      padding: 60px 20px;
+    }
+    .whyusText {
+      font-size: 14px;
+    }
+    .Materials {
+      width: 100%;
+    }
+    .Choose{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .points{
+        padding: 0 30px;
+    }
+  
+    /* Adjust the "Our Clients" section */
+    .clientText {
+      font-size: 14px;
+    }
+    .JoeAllen{
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .joeText p{
+        margin-bottom: 20px;
+    }
+    .JoeImage {
+      width: 60px;
+      height: 60px;
+      margin-left: 45%;
+    }
+    .Sponsor01 img,
+    .Sponsor02 img {
+      width: 100%;
+    }
+  
+    /* Adjust the footer */
+    .footerLists {
+      display: block;
+      /* flex-direction: row; */
+      text-align: center;
+      margin: 20px auto;
+    }
+    .footer a {
+      display: block;
+    }
+  }
+
+  /* ####################### 901-1100 ##################### */
+
+  @media only screen and (max-width: 1100px) and (min-width: 901px){
+
+        /* Adjust the "Services" section */
+
+        .CLists{
+          /* flex-direction: column; */
+          justify-content: space-around;
+          margin: 20px 0;
+          text-align: center;
+      }
+  
+      .serviceText{
+          float: none;
+          margin-bottom: 20px;
+      }
+      .CleaningImage,
+      .CleaningImage02 {
+        width: 100%;
+      }
+      .serviceText {
+        padding: 10px;
+      }
+
+         /* Adjust the "Our Clients" section */
+    .clientText {
+      font-size: 14px;
+    }
+    .JoeAllen{
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .joeText p{
+        margin-bottom: 20px;
+    }
+    .JoeImage {
+      width: 60px;
+      height: 60px;
+      margin-left: 45%;
+    }
+    .Sponsor01 img,
+    .Sponsor02 img {
+      width: 100%;
+    }
+    .WhyUs{
+      background-size: 330px 600px;
+    }
+
+  }

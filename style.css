@@ -237,7 +237,7 @@ form{
     background-image: url(./images/clipboard.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px 600px;
     padding: 100px 0;
 
 }
@@ -493,7 +493,7 @@ footer{
     }
     .whyusText {
       font-size: 10px;
-      margin-left: 3%;
+    
     }
     .Materials {
       width: 100%;
@@ -505,7 +505,7 @@ footer{
     }
     .points{
         padding: 0 30px;
-        margin-left: 4%;
+        
     }
   
     /* Adjust the "Our Clients" section */

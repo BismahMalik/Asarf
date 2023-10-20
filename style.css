@@ -540,7 +540,17 @@ footer{
       display: block;
     }
   }
+  @media screen and (min-width: 425px){
+  .WhyUs {
+    background-size: 280px 520px;
+  }
+  .whyusText{
+    margin-left: 2%;
 
+  }
+  
+
+}
   /* #################### MAxWidth: 768px ################ */
 
   @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -589,9 +599,7 @@ footer{
   
     /* Adjust the menu section */
 
-    .Section{
-
-    }
+  
     .Lists {
       /* display: block; */
       margin: 20px auto;
@@ -649,7 +657,7 @@ footer{
     }
     .whyusText {
       font-size: 14px;
-      margin-left: 5%;
+     
     }
     .Materials {
       width: 100%;
@@ -661,7 +669,7 @@ footer{
     }
     .points{
         padding: 0 30px;
-        margin-left: 5%;
+       
     }
   
     /* Adjust the "Our Clients" section */
@@ -900,4 +908,10 @@ footer{
       background-size: 330px 600px;
     }
 
+  }
+  @media screen and (min-width: 1440px){
+
+    .WhyUs{
+      background-size: 500px 620px;
+    }
   }
